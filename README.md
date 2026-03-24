@@ -1,12 +1,29 @@
-# React + Vite
+# React The Wild Oasis App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Full Stack Wild Oasis app (Admin POV) built with React.
 
-Currently, two official plugins are available:
+![React Personal Finance App](./public/reactthewildoasis.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Highlights
 
-## Expanding the ESLint configuration
+- Built an admin dashboard with Home, Bookings, Cabins, Users, and Settings sections to manage the reservation system.
+- Implemented Bookings management for handling reservations, updates, and monitoring transactions.
+- Created a Cabins module for adding, editing, and deleting cabin listings with validation.
+- Developed Users functionality for creating new users and managing accounts.
+- Implemented a database to store users, cabins, and bookings, ensuring secure and structured data management.
+- Configured Settings to manage hotel rules and limits, including maximum and minimum booking requirements.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Technologies
+
+- Vite
+- JavaScript
+- Tailwind
+- React
+- React Router
+- React Query
+- Node.js
+- Supabase
+
+# View Live Demo
+
+https://gce-react-the-wild-oasis.vercel.app/
